@@ -13,11 +13,11 @@ const movieData = [
   },
   {
     title: 'ChromeBoi',
-    IMDBRating: 5,
+    IMDBRating: null,
     genres: ['thriller', 'romance'],
     poster: 'chromeboi'
   },
-  
+
   {
     title: 'Escape from VIM',
     IMDBRating: 0,
