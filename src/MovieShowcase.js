@@ -5,6 +5,7 @@ import movieData from './data.js'
 export default class MovieShowcase extends Component {
 
   generateMovieCards = () => {
+    return movieData.map((data, movie) => <MovieCard key={movie} {...data} />)
     // map over your movieData array and return the correct 
   }
 
@@ -16,3 +17,4 @@ export default class MovieShowcase extends Component {
     )
   }
 }
+
